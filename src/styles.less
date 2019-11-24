@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'styles/normalize.less';
+
+html {
+  font-size: 62.5%;
+  color: @white;
+  height: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: @fs-m;
+  background: @black;
+  height: 100%;
+}
+* {
+  outline: none;
+}
+
+@import 'styles/colour.less';
+@import 'styles/spacing.less';
+@import 'styles/grid.less';
+@import 'styles/typography.less';
+@import 'styles/utilities.less';
+@import 'styles/board.less';
