@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~8.0.1",
     "@angular/router": "~8.0.1",
     "classlist.js": "^1.1.20150312",
+    "express": "^4.17.1",
     "prettier": "^1.18.2",
     "pretty-quick": "^2.0.0",
     "rxjs": "~6.4.0",
